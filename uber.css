@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(images/c413f20400e04805.webp);
+    height: 966px;
+    background-size: cover;
+    /* background-position: center; */
+    /* align-items: center; */
+}
+.nav{
+    display:flex;
+    height: 66px;
+    padding: 10px 40px;
+}
+.hamburger{
+    width: 48px;
+    height:48px;
+    margin: 0px 0px 0px -14px;
+}
+.hamburger button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: none;
+}
+.hamburger button i{
+    width: 20px;
+    height: 20px;
+}
+.logo img{
+    width: 89.33px;
+    height: 16px;
+}
+.nav-mid{
+    width: 961.13px;
+    height: 64px;
+}
+.nav-right{
+    width: 177.55px;
+    height: 36px;
+    display: flex;
+}
+.sign{
+    width: 153.55px;
+    height: 36px;
+    margin: 0px 0px 0px 24px;
+    display: flex;
+}
+.login button{
+    width: 63.86px;
+    height: 36px;
+    margin:0px 16px 0px 0px;
+    padding: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border-radius:25px;
+    text-wrap: nowrap;
+}
+.signup button{
+    width: 73.69px;
+    height: 36px;
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #000000;
+    padding:12px;
+    border-radius: 25px;
+    text-wrap: nowrap;
+}
