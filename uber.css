@@ -24,8 +24,6 @@
     margin: 0px 0px -3px -3px;
 }
 .hamburger{
-    /* width: 48px; */
-    /* height:48px; */
     margin: 0px 0px 0px -14px;
 }
 .hamburger button{
@@ -101,7 +99,6 @@ span .log{
 }
 .head{
     width: 1378px;
-    /* height: 20000000px; */
     padding: 0px 40px;
     margin-top: -20px;
     font-family: sans-serif;
@@ -192,6 +189,7 @@ input{
     padding: 12px 16px;
     text-wrap: nowrap;
     border-radius: 10px;
+    border: none;
 }
 .set{
     width: 139.23px;
@@ -214,6 +212,9 @@ input{
     display: flex;
     padding-left: 0px;
 }
+section{
+    border-bottom:1px solid #F3F3F3;
+}
 .one{
     width: 611.66px;
     height: 400.91px;
@@ -228,6 +229,8 @@ input{
     height: 36px;
     color:#000000;
     font-size: 28px;
+    margin-top: 7px;
+    margin-bottom: 6px;
 }
 .one a{
     width: 587.66px;
@@ -238,7 +241,7 @@ input{
 }
 .main{
     width: 1835px;
-    height: 1304px;
+    height: 1544px;
     padding: 160px 40px;
 }
 .heading{
@@ -254,8 +257,27 @@ section .heading span{
     font-size: 36px;
     font-weight: bolder;
     text-wrap: nowrap;
+    margin-bottom: 22px;
 }
 section .heading .view a{
+    color: black;
+    font-weight: bold;
+}
+.heading2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+section .heading2 span{
+    width: 234.41px;
+    height: 44px;
+    color: #000000;
+    font-size: 36px;
+    font-weight: bolder;
+    text-wrap: nowrap;
+}
+section .heading2 .view a{
     color: black;
     font-weight: bold;
 }
@@ -277,7 +299,7 @@ section .heading .view a{
     margin: 24px 0px 0px;
     display: flex;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 .name a{
     text-decoration: none;
@@ -285,4 +307,232 @@ section .heading .view a{
     text-wrap: nowrap;
     font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: light;
+}
+footer{
+    width: 1835px;
+    height: 562px;
+    background-color: #FFFFFF;
+    margin: 0px 0px 0px;
+    padding: 72px 0px 88px;
+}
+.foot{
+    width: 1280px;
+    height: 401px;
+    margin: 0px 277.5px;
+    padding: 0px 40px;
+}
+.foot1{
+    width: 1200px;
+    height: 264px;
+    display: flex;
+}
+.A{
+    width: 600px;
+    height: 264px;
+}
+.A img{
+    width: 134px;
+    height: 24px;
+    margin: 0px 0px 155px;
+}
+.A .download{
+    width: 285.28px;
+    height: 44px;
+}
+#appstore{
+    width: 135px;
+    height: 40px;
+}
+#playstore{
+    width: 134.28px;
+    height: 40px;
+    margin-left: 11.5px;
+}
+.B{
+    width: 300px;
+    height: 264px;
+}
+.B ul{
+    width: 300px;
+    height: 224px;
+}
+.B ul li{
+    width: 300px;
+    height: 24px;
+    font-size: 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 16px;
+    list-style: none;
+}
+.B ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.C{
+    width: 300px;
+    height: 264px;
+}
+.C ul li{
+    list-style: none;
+}
+.C ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.C ul li{
+    width: 300px;
+    height: 24px;
+    font-size: 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 16px;
+}
+.C ul li .language a{
+    width: 300px;
+    height: 24px;
+    font-size: 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.C ul li .language a img{
+    width: 16px;
+    height: 16px;
+}
+hr{
+    margin: 40px 0px;
+    border: none;
+    border-top: 1px solid #F3F3F3;
+}
+.foot2{
+    width: 1200px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-left{
+    width: 96px;
+    height: 36px;
+}
+.foot-left-each{
+    width: 96px;
+    height: 36px;
+    display: flex;
+}
+.foot-left-each a{
+    width: 16px;
+    height: 36px;
+}
+.foot-left-each a i{
+    color: #000000;
+    width: 16px;
+    height: 16px;
+}
+.foot-left-each .space{
+    width: 24px;
+    height: 1px;
+}
+.foot-mid{
+    width: 527.03;
+    height: 36px;
+}
+.foot-right{
+    width: 576.97px;
+    height: 36px;
+}
+.foot-right-each{
+    width: 576.97px;
+    height: 36px;
+    display: flex;
+    text-wrap: nowrap;
+}
+.foot-right-each a{
+    color: #000000;
+    text-decoration: none;
+}
+.foot-right-each a #on{
+    text-wrap: nowrap;
+    color: #000000;
+    text-decoration: none;
+    width: 87.39px;
+    height: 20px;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.foot-right-each a #tw{
+    text-wrap: nowrap;
+    color: #000000;
+    text-decoration: none;
+    width: 40.2px;
+    height: 20px;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.foot-right-each a #th{
+    text-wrap: nowrap;
+    color: #000000;
+    text-decoration: none;
+    width: 45.28px;
+    height: 20px;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.foot-right-each a #fo{
+    text-wrap: nowrap;
+    color: #000000;
+    text-decoration: none;
+    width: 284.09px;
+    height: 20px;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.space2{
+    width: 40px;
+    height: 1px;
+}
+.foot3{
+    width: 1200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.gap{
+    width: 362.44px;
+    height: 20px;
+}
+.foot3-mid{
+    width: 837.56px;
+    height: 20px;
+    display: flex;
+}
+.foot3-mid-each{
+    width: 602.73px;
+    height: 20px;
+    font-size: 14px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    text-wrap: nowrap;
+}
+.foot3-mid-each h4{
+    font-weight: lighter;
+}
+.foot3-mid-each a{
+    color: #000000;
+    text-decoration: none;
+}
+.foot3-gap{
+    width: 40px;
+    height: 1px;
+}
+.foot3-end-each{
+    display: flex;
+    text-wrap: nowrap;
+    width: 194.83px;
+    height: 20px;
+    color: #000000;
+    font-size: 14px;
+}
+.foot3-end-each h4{
+    font-weight: lighter;
 }
